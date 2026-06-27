@@ -1,2 +1,4 @@
 [dependencies]
 solana-security-txt = "1.1.3"
+cargo build-sbf
+query-security-txt target/sbpf-solana-solana/release/spl_token.so
