@@ -1,0 +1,17 @@
+# Security Policy
+
+## Supported Versions
+name = "SPL Token Program"
+project_url = "https://solana.com"
+contacts = [
+    { contact_type = "email", value = "fatima78611097@gmail.com" },
+    { contact_type = "link", value = "https://github.com/solana-labs/solana/security/advisories/new" }
+]
+policy = "https://github.com/solana-labs/solana/blob/master/SECURITY.md"
+source_code = "https://github.com/solana-program/token"
+source_revision = "4fadd55"
+source_release = "3.4.0"
+auditors = ["Peer Review (2022-08-04)"]
+expiry = "2027-12-31"
+program_id = "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA"
+network = "mainnet"
