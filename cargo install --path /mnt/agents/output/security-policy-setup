@@ -1,0 +1,1 @@
+query-security-txt target/sbpf-solana-solana/release/example_contract.so
