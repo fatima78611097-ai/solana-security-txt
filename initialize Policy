@@ -1,0 +1,6 @@
+security-policy-setup init \
+  --name "Token Program" \
+  --url "https://explorer.solana.com/address/HPxKXnBN4vJ8RjpdqDCU7gvNQHeeyGnSviYTJ4fBrDt4/security?cluster=devnet" \
+  --email "fatima78611097@gmail.comm" \
+  --policy "https://github.com/myproject/SECURITY.md" \
+  --ci
