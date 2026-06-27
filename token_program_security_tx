@@ -1,0 +1,14 @@
+
+---
+
+## 6. VERIFICATION STEPS
+
+After deployment, verify the fix:
+
+### 6.1 Using `query-security-txt` CLI
+```bash
+# Install the tool if not already installed
+cargo install query-security-txt
+
+# Query the on-chain program
+query-security-txt TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
