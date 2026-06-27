@@ -1,0 +1,8 @@
+# Download the program binary
+solana program dump TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA spl_token.so
+
+# Extract the security.txt section
+readelf -p .security.txt spl_token.so
+
+# Or search for the marker
+strings spl_token.so | grep -A 20 "BEGIN SECURITY.TXT"
