@@ -1,0 +1,4 @@
+security-policy-setup generate \
+  --config security-policy.toml \
+  --output src/security_txt.rs \
+  --security-md
