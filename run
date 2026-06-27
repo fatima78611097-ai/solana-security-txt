@@ -1,0 +1,1 @@
+security-policy-setup generate --config token-policy.toml --output token/src/security_txt.rs
