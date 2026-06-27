@@ -1,0 +1,17 @@
+# 1. Clone the token program repository
+git clone https://github.com/solana-program/token.git
+cd token/program
+
+# 2. Add the dependency and security_txt! macro (as shown above)
+
+# 3. Build the program
+cargo build-sbf
+
+# 4. Verify the security.txt is embedded
+query-security-txt target/sbpf-solana-solana/release/spl_token.so
+
+# 5. Deploy the upgrade (requires program upgrade authority)
+solana program deploy   --program-id TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA   target/sbpf-solana-solana/release/spl_token.so
+
+# 6. Verify on-chain
+query-security-txt TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
