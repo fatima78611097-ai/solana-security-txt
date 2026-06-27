@@ -1,0 +1,6 @@
+﻿File,Description
+[Cargo.toml](sandbox:///mnt/agents/output/solana-security-txt/Cargo.toml),Package manifest with metadata
+[src/lib.rs](sandbox:///mnt/agents/output/solana-security-txt/src/lib.rs),The `security_txt!` macro + optional parser
+[README.md](sandbox:///mnt/agents/output/solana-security-txt/README.md),Documentation
+[LICENSE-MIT](sandbox:///mnt/agents/output/solana-security-txt/LICENSE-MIT),MIT license
+[LICENSE-APACHE](sandbox:///mnt/agents/output/solana-security-txt/LICENSE-APACHE),Apache 2.0 license
